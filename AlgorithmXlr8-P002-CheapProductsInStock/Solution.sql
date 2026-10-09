@@ -1,0 +1,3 @@
+-- Write your SQLite query below
+
+SELECT PRODUCT_ID, NAME FROM PRODUCTS WHERE IN_STOCK = 1 AND PRICE < 500;
